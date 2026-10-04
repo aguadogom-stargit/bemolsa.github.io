@@ -1,0 +1,8 @@
+{
+  "_comentario": "Datos que no están en la app. Edita y vuelve a ejecutar: python generar.py",
+  "app": "TransitGoCity",
+  "titular": "",
+  "correo": "soporte.tuscity@gmail.com",
+  "fecha": "2026-10-04",
+  "res_app": "../../tuscity/app/src/main/res"
+}
