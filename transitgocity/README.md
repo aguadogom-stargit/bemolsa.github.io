@@ -13,13 +13,11 @@ Generadas con `generar.py` desde los **mismos textos que muestra la app**
 | `config.json` | lo que no está en la app: `titular`, `correo`, `fecha` y `res_app` (ruta a los textos de la app, por defecto `../../tuscity/app/src/main/res`) |
 | `generar.py` | regenera todo (Python 3.8+). **No edites los `.html` a mano**: se sobrescriben |
 
-## Antes de publicar
+## Actualizar
 
-1. Rellena `"titular"` en `config.json` (nombre y apellidos o razón social). Mientras esté vacío, el
-   punto 1 de la política sale marcado en amarillo como PENDIENTE.
-2. `python generar.py` y revisa los AVISOS que imprima.
-
-Cuando cambien los textos legales de la app: actualiza `"fecha"`, ejecuta `generar.py` y publica.
+El titular (Oscar Aguado Gómez) y la fecha de «Última actualización» están en los textos de la app
+(`strings.xml`, 5 idiomas). Cuando cambien los textos legales de la app (y su fecha):
+`python generar.py`, revisar los AVISOS y subir.
 
 ## app-ads.txt (AdMob)
 

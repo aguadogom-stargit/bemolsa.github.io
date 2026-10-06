@@ -1,8 +1,8 @@
 {
-  "_comentario": "Datos que no están en la app. Edita y vuelve a ejecutar: python generar.py",
+  "_comentario": "Datos que no están en la app. Desde el 2026-10-04 el titular y la fecha ya están en los textos de la app (strings.xml): 'titular' y 'fecha' solo se usan si la app vuelve a tener [corchetes]. Tras cambiar los textos legales de la app: python generar.py y subir.",
   "app": "TransitGoCity",
-  "titular": "",
+  "titular": "Oscar Aguado Gómez",
   "correo": "soporte.tuscity@gmail.com",
   "fecha": "2026-10-04",
-  "res_app": "../../tuscity/app/src/main/res"
+  "res_app": "../../../tuscity/app/src/main/res"
 }
